@@ -21,9 +21,10 @@ contribute innovative solutions and deliver measurable results.
 """
 EMAIL = "singhsameer121295@email.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/sameer-s-25a102134/",
+    "LinkedIn": "https://www.linkedin.com/in/sameer-singh-data/",
     "GitHub": "https://github.com/Sameer1295",
-    "Kaggle": "https://www.kaggle.com/sameersingh112"
+    "Kaggle": "https://www.kaggle.com/sameersingh112",
+    "Medium": "https://medium.com/@singhsameer121295"
 }
 PROJECTS = {
     "🏆 Clothify - Ecommerce clothing store (09/2023 - 10/2023) - Built clothing ecommerce web application using Django, Mysql, Jquery, Ajax and Bootstrap.": "https://github.com/Sameer1295/Clothify-Ecommerce-Django",
@@ -48,9 +49,10 @@ profile_pic = Image.open(profile_pic)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_pic, width=230)
-
+       
 with col2:
     st.title(NAME)
+    # st.write("Analytical Thinker | Data Enthusiast | Problem Solver")
     st.write(DESCRIPTION)
     st.download_button(
         label=" 📄 Download Resume",
@@ -74,8 +76,8 @@ st.subheader("Education")
 
 # Education details in a concise format
 education_details = [
-    "🎓 **MSc** (Information Technology) - University of Mumbai",
-    "🎓 **BSc** (Information Technology) - Ramanand Arya DAV College"
+    "🎓 **MSc** (Information Technology) - University of Mumbai 2023",
+    "🎓 **BSc** (Information Technology) - Ramanand Arya DAV College 2017"
 ]
 
 for edu_detail in education_details:
@@ -107,13 +109,13 @@ st.subheader("Technical Skills")
 st.write(
     """
 - 👩‍💻 Programming: Python, Javascript, PHP
-- 🌐 Backend: Django, Flask
-- 🌐 Web Technologies: HTML, CSS, Bootstrap
+- 💻 Backend: Django, Flask, Laravel
+- 🌐 Web Technologies: HTML, CSS, Bootstrap, Jquery
 - 📊 Big Data: Hadoop, MapReduce, Hive, Spark, AWS Glue, AWS Athena
-- 🗃️ Databases: MySQL, PGSQL, and MongoDB
+- 🗃️ Databases: MySQL, PostgreSQL and MongoDB
 - 📊 Data Visulization: MS Excel, Pandas, Seaborn, Plotly
 - ☁️ Cloud: AWS IAM, S3, SES, AWS Glue
-- ⚙️ Tools: VS Code, Git Bash, Postman, Jira, and Confluence
+- ⚙️ Tools: VS Code, Git Bash, Vim, Postman, Jira, and Confluence
 """
 )
 
@@ -171,9 +173,9 @@ st.subheader("Awards and Achievements")
 
 # Awards and achievements details
 awards_details = [
-    "🏆 1st Rank in SYIT (Bachelor of Science in Information Technology)",
-    "🥈 2nd Rank in overall BSCIT (Bachelor of Science in Information Technology)",
-    "🏆 1st Rank in Project Implementation during BSCIT",
+    "🏆 1st Rank in SY BSc IT (Bachelor of Science in Information Technology)",
+    "🏆 1st Rank in Project Implementation during BSc IT",
+    "🥈 2nd Rank in TY BSc IT (Bachelor of Science in Information Technology)",
     "🥈 Runners-up in Seed Infotech One-Day Project Event"
 ]
 
